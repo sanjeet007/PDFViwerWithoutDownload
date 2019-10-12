@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true"
+        android:layout_width="190dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="#FCE0E0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/IV"
+            android:src="@drawable/aa"/>
+
+        <TextView
+            android:id="@+id/TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PDF FILE"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|center"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
